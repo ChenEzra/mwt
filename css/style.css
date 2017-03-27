@@ -116,9 +116,9 @@ hr{
   box-shadow:0px 0px 25px 0px black;
   background: red;
   color: white;
-  font-size: 180%;
+  font-size: 160%;
   border-radius: 50%;
-  padding: 20px 40px;
+  padding: 40px;
   margin-bottom: 10px;
 }
 
@@ -213,6 +213,13 @@ hr{
 
   a.anchor {
     top: -103px;
+  }
+
+  .menubar{
+    padding: 10px 0;
+  }
+  .menuitem{
+    padding-top: 10px;
   }
 }
 
