@@ -12,13 +12,13 @@ body{
   text-shadow: 0.5px 0.5px #000;
   text-align: center;
   padding-top: 112px;
-  padding-bottom: 112px;
+  padding-bottom: 95px;
 }
 
 a.anchor {
     display: block;
     position: relative;
-    top: -128px;
+    top: -112px;
     visibility: hidden;
 }
 
@@ -86,20 +86,8 @@ hr{
   text-decoration: none;
 }
 
-.services{
-  flex-flow: column;
-}
-
-.dot{
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  background: red;
-}
-
-.checklist td{
-  padding: 10px;
-  font-size: 150%;
+.services ul{
+  text-align: right;
 }
 
 .pricelist h2{
@@ -159,11 +147,11 @@ hr{
   left:0;
   right:0;
   bottom: 0;
-  font-size: 150%;
+  font-size: 130%;
   background: #ffff66;
 }
 
-.innerfooter{
+.footer .innerfooter{
   padding: 5px;
   margin-bottom: 10px;
   background: red;
@@ -171,63 +159,66 @@ hr{
   text-shadow: 2px 2px #000;
 }
 
-.openalso{
+.footer .openalso{
   font-weight: bold;
-  margin-bottom: 10px;
   display: inline-block;
 }
 
-.address{
+.footer .address{
   width: 100%;
+}
+
+.footer .phone{
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 1000px){
   body{
-    font-size: 80%;
-    padding-top: 74px;
-    padding-bottom: 74px;
+    font-size: 120%;
+    padding-top: 96px;
+    padding-bottom: 81px;
   }
 
   a.anchor {
-    top: -74px;
+    top: -96px;
   }
 
   .content > div{
     padding: 25px 15px;
   }
-
-  .dot{
-    height: 5px;
-    width: 5px;
-  }
-
-  .checklist td{
-    padding: 5px;
-  }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
   body{
-    font-size: 60%;
-    padding-top: 57px;
-    padding-bottom: 56px;
+    font-size: 100%;
+    padding-top: 85px;
+    padding-bottom: 71px;
   }
 
   a.anchor {
-    top: -87px;
+    top: -85px;
   }
 
   .content > div{
     padding: 25px 5px;
   }
+}
 
-  .dot{
-    height: 3px;
-    width: 3px;
+@media screen and (max-width: 600px){
+  body{
+    padding-top: 103px;
+    padding-bottom: 94px;
   }
 
-  .checklist td{
-    padding: 3px;
+  a.anchor {
+    top: -103px;
   }
+}
 
+@media screen and (max-width: 400px){
+  body{
+    padding-bottom: 117px;
+  }
 }
