@@ -1,0 +1,230 @@
+@import url("../fonts/stylesheet.css");
+
+body{
+  box-sizing: border-box;
+  background: #ffff66;
+  color: red;
+  font-size: 150%;
+  font-weight: 800;
+  font-family: 'Arial';
+  direction: ltr;
+  margin:0;
+  text-shadow: 0.5px 0.5px #000;
+  text-align: center;
+  padding-top: 112px;
+  padding-bottom: 95px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -112px;
+    visibility: hidden;
+}
+
+hr{
+  border: 1px solid red;
+  width:90%;
+}
+
+.menubar{
+  box-sizing: border-box;
+  position: fixed;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow:0px 0px 25px 0px black;
+  text-shadow: 2px 2px #000;
+  background: red;
+  color: white;
+  top: 0;
+  left:0;
+  right:0;
+  padding: 15px 0;
+  z-index: 5;
+}
+
+.menubar a{
+  color: white;
+  text-decoration: none;
+}
+
+.menubar a:hover{
+  color: #ffff66;
+}
+
+.menutitle{
+  font-size: 300%;
+  margin: 0;
+}
+
+.menuitems{
+  display: flex;
+  align-items: flex-end;
+  list-style-type: none;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.menuitem{
+  margin: 0 10px;
+}
+
+.content > div{
+  box-sizing: border-box;
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content a{
+  color: red;
+  text-decoration: none;
+}
+
+.services ul{
+  text-align: left;
+}
+
+.pricelist h2{
+  margin: 0;
+}
+
+.pricelist th{
+  text-align: left;
+  font-size: 120%;
+  padding-top: 20px;
+}
+
+.pricelist td{
+  border-bottom: 1px dashed red;
+}
+
+.tablename{
+  text-align: left;
+}
+
+.tablevalue{
+  text-align: right;
+}
+
+.specialprice{
+  box-shadow:0px 0px 25px 0px black;
+  background: red;
+  color: white;
+  font-size: 160%;
+  border-radius: 50%;
+  padding: 40px;
+  margin-bottom: 10px;
+}
+
+.normalprice{
+  padding: 20px 40px;
+}
+
+.contactus{
+  font-size: 120%;
+}
+.phonelist th{
+  font-size: 120%;
+}
+
+.map{
+  padding: 25px;
+  height: 400px;
+  width: 80%;
+}
+
+.footer{
+  box-sizing: border-box;
+  box-shadow:0px 0px 25px 0px black;
+  position: fixed;
+  left:0;
+  right:0;
+  bottom: 0;
+  font-size: 130%;
+  background: #ffff66;
+}
+
+.footer .innerfooter{
+  padding: 5px;
+  margin-bottom: 10px;
+  background: red;
+  color: white;
+  text-shadow: 2px 2px #000;
+}
+
+.footer .openalso{
+  font-weight: bold;
+  display: inline-block;
+}
+
+.footer .address{
+  width: 100%;
+}
+
+.footer .phone{
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px){
+  body{
+    font-size: 120%;
+    padding-top: 96px;
+    padding-bottom: 81px;
+  }
+
+  a.anchor {
+    top: -96px;
+  }
+
+  .content > div{
+    padding: 25px 15px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  body{
+    font-size: 100%;
+    padding-top: 85px;
+    padding-bottom: 71px;
+  }
+
+  a.anchor {
+    top: -85px;
+  }
+
+  .content > div{
+    padding: 25px 5px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  body{
+    padding-top: 103px;
+    padding-bottom: 94px;
+  }
+
+  a.anchor {
+    top: -103px;
+  }
+
+  .menubar{
+    padding: 10px 0;
+  }
+  .menuitem{
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  body{
+    padding-bottom: 117px;
+  }
+}
